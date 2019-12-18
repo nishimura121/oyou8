@@ -60,7 +60,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # originals
-gem 'devise'
+gem 'devise', git: 'https://github.com/plataformatec/devise'
 
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+
